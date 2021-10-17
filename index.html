@@ -26,7 +26,100 @@
 
 
 -->
+<style>
+.depoimentos {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
 
+.depoimento {
+  width: 100%;
+  height: 100px;
+  ;margin: auto;
+  text-align: center;
+}
+
+.depoimento {
+  display: none;
+}
+
+.depoimento-1 {
+  background-color: white;
+}
+
+.depoimento-2 {
+  background-color: white;
+}
+
+.depoimento-3 {
+  background-color: white;
+}
+
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.active {
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.active, .dot:hover {
+  background-color: rgba(255, 255, 255, 0);
+}
+
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 2.5s;
+  animation-name: fade;
+  animation-duration: 2.5s;
+}
+
+@-webkit-keyframes fade {
+  from {left: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+</style>
 </head>
 
 <body>
@@ -99,7 +192,9 @@
                   </div>
                   <div class="col-lg-12">
                     <h2>Movidos pela criatividade !</h2>
-                  </div>
+                    <h5 style="margin-bottom:50px;">A Vision oferece o que há de melhor em estratégias de marketing para o seu negócio, potencializando ainda mais os seus resultados!</h5>
+                    </div>
+
                   <div class="col-lg-12">
                     <div class="main-green-button scroll-to-section">
                       <a href="#contact">Solicitar uma consultoria grátis</a>
@@ -186,9 +281,9 @@
                     </span>
                     <div class="progress-value">
                       <div>
-                        45%<br>
-                        <span>definir</span>
-                      </div>
+                        +130M<br>
+                        <br><h6 style="font-size: 12px; margin-bottom: -5px;"><b>Pessoas acessam<br>internet no Brasil</b></h6></br>
+                        </div>
                     </div>
                   </div>
                 </div>
@@ -204,8 +299,8 @@
                     </span>
                     <div class="progress-value">
                       <div>
-                        60%<br>
-                        <span>definir</span>
+                        +95M<br>
+                        <br><h6 style="font-size: 12px;font-style: initial;"><b>Pessoas acessam<br> Instagram no Brasil</b></h6></br>
                       </div>
                     </div>
                   </div>
@@ -222,8 +317,8 @@
                     </span>
                     <div class="progress-value">
                       <div>
-                        90%<br>
-                        <span>Marketing</span>
+                        +120M<br>
+                        <br><h6 style="font-size: 12px;font-style: initial;"><b>Pessoas acessam<br>Facebook</b></h6></br>
                       </div>
                     </div>
                   </div>
@@ -240,8 +335,8 @@
                     </span>
                     <div class="progress-value">
                       <div>
-                        70%<br>
-                        <span>definir</span>
+                        +3B<br>
+                        <br><h6 style="font-size: 12px;font-style: initial;"><b>Pessoas acessam</b><br> <b>realizam pesquisa no Google</b></h6></br>
                       </div>
                     </div>
                   </div>
@@ -265,29 +360,29 @@
         <div class="col-lg-6 align-self-center wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
           <div class="section-heading">
             <h6>Quem somos</h6>
-            <h2>A <em>Vison</em> é uma agência de comunicação baiana<span> focada em aumentar o desempenho de empresas</span></h2>
+            <h3>A <a style="color: #33ccc5;">Vison</a> é uma agência de comunicação baiana<span> focada em aumentar o desempenho de empresas</span></h3>
           </div>
           <div class="row">
             <div class="col-lg-4 col-sm-4">
               <div class="about-item">
-                <h4>20+</h4>
-                <h6>Projetos finalizados</h6>
+                <h4>100+</h4>
+                <h6><b>Projetos finalizados</b></h6>
               </div>
             </div>
             <div class="col-lg-4 col-sm-4">
               <div class="about-item">
-                <h4>30+</h4>
-                <h6>clientes felizes</h6>
+                <h4>15+</h4>
+                <h6><b>clientes felizes</b></h6>
               </div>
             </div>
             <div class="col-lg-4 col-sm-4">
               <div class="about-item">
-                <h4>12+</h4>
-                <h6>Definir</h6>
+                <h4></h4>
+                <h6></h6>
               </div>
             </div>
           </div>
-          <p><a rel="nofollow" href="https://templatemo.com/tm-563-seo-dream" target="_parent"></a> Especialista em gerenciamento de redes sociais, criação de sites e definição de estratégias de marketing. Atuamos com o objetivo de ajudar empresas a se destacarem no mercado, com um visual mais atrativo que converse com o cliente, gerando resultados.</p>
+          <p><a rel="nofollow" href="#" target="_parent"></a> Especialista em gerenciamento de redes sociais, criação de sites e definição de estratégias de marketing. Atuamos com o objetivo de ajudar empresas a se destacarem no mercado, com um visual mais atrativo que converse com o cliente, gerando resultados.</p>
           <div class="main-green-button"><a href="#">Solicitar Orçamento</a></div>
         </div>
       </div>
@@ -300,7 +395,7 @@
         <div class="col-lg-6 offset-lg-3">
           <div class="section-heading wow bounceIn" data-wow-duration="1s" data-wow-delay="0.2s">
             <h6>Nossos Serviços</h6>
-            <h2> O que fazemos &amp; <span> Oferecemos</span> para nossos <em>Clientes</em></h2>
+            <h3> O que fazemos &amp; <span> Oferecemos</span> para nossos Clientes</h3>
           </div>
         </div>
       </div>
@@ -421,7 +516,7 @@
         <div class="col-lg-5">
           <div class="section-heading wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.3s">
             <h6>Nosso Portofolio</h6>
-            <h2>CLIENTES <em>e</em> <span>PROJETOS</span></h2>
+            <h3><b>Clientes</b> <a>e</a> <b style="color: ;">Projetos</b></span></h3>
           </div>
         </div>
       </div>
@@ -433,7 +528,7 @@
             <div class="item">
               <div class="portfolio-item">
                 <div class="thumb">
-                  <img src="assets/images/portfolio-01.png" alt="">
+                  <img style="width: 50%;"src="assets/images/portfolio-01.png" alt="">
                   <div class="hover-content">
                     <div class="inner-content">
                       <a href="#"><h4>Definir</h4></a>
@@ -444,7 +539,7 @@
               </div>
               <div class="portfolio-item">
                 <div class="thumb">
-                  <img src="assets/images/portfolio-04.png" alt="">
+                  <img  style="width: 50%;"src="assets/images/portfolio-04.png" alt="">
                   <div class="hover-content">
                     <div class="inner-content">
                       <a href="#"><h4>Definir</h4></a>
@@ -457,10 +552,10 @@
             <div class="item">
               <div class="portfolio-item">
                 <div class="thumb">
-                  <img src="assets/images/portfolio-02.png" alt="">
+                  <img style="width: 50%;" src="assets/images/portfolio-02.png" alt="">
                   <div class="hover-content">
                     <div class="inner-content">
-                      <a href="#"><h4><Datag>Definir</Datag></h4></a>
+                      <a href="#"><h4><Datag>Definir</Datag></h4></a> 
                       <span>Definir</span>
                     </div>
                   </div>
@@ -468,7 +563,7 @@
               </div>
               <div class="portfolio-item">
                 <div class="thumb">
-                  <img src="assets/images/portfolio-05.png" alt="">
+                  <img style="width: 50%;"src="assets/images/portfolio-05.png" alt="">
                   <div class="hover-content">
                     <div class="inner-content">
                       <a href="#"><h4>Definir</h4></a>
@@ -481,7 +576,7 @@
             <div class="item">
               <div class="portfolio-item">
                 <div class="thumb">
-                  <img src="assets/images/portfolio-03.png" alt="">
+                  <img style="width: 50%;" src="assets/images/portfolio-03.png" alt="">
                   <div class="hover-content">
                     <div class="inner-content">
                       <a href="#"><h4>Definir</h4></a>
@@ -492,7 +587,7 @@
               </div>
               <div class="portfolio-item">
                 <div class="thumb">
-                  <img src="assets/images/portfolio-06.png" alt="">
+                  <img style="width: 50%;" src="assets/images/portfolio-06.png" alt="">
                   <div class="hover-content">
                     <div class="inner-content">
                       <a href="#"><h4>Definir</h4></a>
@@ -505,7 +600,7 @@
             <div class="item">
               <div class="portfolio-item">
                 <div class="thumb">
-                  <img src="assets/images/portfolio-07.png" alt="">
+                  <img style="width: 50%;" src="assets/images/portfolio-07.png" alt="">
                   <div class="hover-content">
                     <div class="inner-content">
                       <a href="#"><h4>Definir</h4></a>
@@ -516,7 +611,7 @@
               </div>
               <div class="portfolio-item">
                 <div class="thumb">
-                  <img src="assets/images/portfolio-08.png" alt="">
+                  <img style="width: 50%;"src="assets/images/portfolio-08.png" alt="">
                   <div class="hover-content">
                     <div class="inner-content">
                       <a href="#"><h4>DEFINIR</h4></a>
@@ -531,7 +626,40 @@
       </div>
     </div>
   </div>
-
+  <footer>
+    <div styleclass="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="depoimentos">
+            <div><h1 style="text-align: center;margin-bottom: 50px; font: size 20px;font-family: Helvetica ;">Depoimentos</h1></div>
+            <div style="margin-bottom: 15px;"class="depoimento depoimento-1 fade">
+              <div class="left">
+                <img style="width:70px; height: 70px; margin-bottom: 35px; border-radius: 50px;" src="https://66.media.tumblr.com/8d3e7364417a8f7e0abc04a223857b12/tumblr_otox3fKZ9Y1s05s0mo9_250.png">
+              </div>
+              <div class="text">"Estou muito satisfeita com o trabalho realizado pela Vision. Ultimamente tenho realizado mais vendas através do meu site e redes sociais."
+              <br><b>Fernada Calmon - Abuse&Use</b>
+              </div>
+            </div>
+            
+            <div class="depoimento depoimento-2 fade">
+              <div class="left">
+                <img style="width:70px; height: 70px; margin-bottom: 35px; border-radius: 50px;" src="https://res.cloudinary.com/dhblnqwtz/image/upload/v1634481310/camila_fks6ap.jpg">
+              </div>
+              <div class="text">Tinha uma certa dificuldade em estabelecer uma identidade para o Instagram da minha loja e a Vision me ajudou bastante nesse sentido.</div>
+              <br><b>Camila Damasceno - 0907 Store</b>
+            </div>
+          
+           <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <br>
+            
+            <div style="text-align:center">
+              <span class="dot" onclick="currentSlide(1)"></span> 
+              <span class="dot" onclick="currentSlide(2)"></span> 
+              <span class="dot" onclick="currentSlide(3)"></span> 
+            </div>
+      </footer>
   <div id="contact" class="contact-us section">
     <div class="container">
       <div class="row">
@@ -541,7 +669,7 @@
               <div class="col-lg-6 offset-lg-3">
                 <div class="section-heading">
                   <h6>Quer saber o que você precisa para alavancar seu negócio?</h6>
-                  <h2>Deixe seu email <span>aqui </span> que a gente <em>te conta. </em> </h2>
+                  <h3>Deixe seu email <span>aqui </span> que a gente te conta.</h3>
                 </div>
               </div>
               <div class="col-lg-9">
@@ -585,13 +713,13 @@
                       <div class="icon">
                         <img src="assets/images/contact-icon-01.png" alt="email icon">
                       </div>
-                      <a href="#">contato@visioncomunicacao.com</a>
+                      <a style="font-size: 12px;"href="#">contato@visioncomunicacao.com</a>
                     </li>
                     <li>
                       <div class="icon">
                         <img src="assets/images/contact-icon-02.png" alt="phone">
                       </div>
-                      <a href="#">(71) 99364-1345</a>
+                      <a style="font-size: 12px;"href="#">(71) 99364-1345</a>
                     </li>
                     <li>
                       <div class="icon">
@@ -633,6 +761,34 @@
   <script src="assets/js/animation.js"></script>
   <script src="assets/js/imagesloaded.js"></script>
   <script src="assets/js/custom.js"></script>
+  <script>var slideIndex = 1;
+    showSlides(slideIndex);
+    
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+    
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+    
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("depoimento");
+      var dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {slideIndex = 1}    
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";  
+      }
+      for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+    }
+    
+    setInterval(() => plusSlides(1), 3000);</script>
 
 </body>
 </html>
