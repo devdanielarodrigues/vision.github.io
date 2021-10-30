@@ -642,7 +642,7 @@ header
     width: 100%;
   }
   .header-area {
-    background-color: #33ccc5;
+    background-color: #4771cbd3;
     padding: 0px 15px;
     height: 100px;
     box-shadow: none;
@@ -902,17 +902,18 @@ Banner Style
   border-top: 1px solid #eee;
   margin-top: 30px;
   padding-top: 20px;
-  margin-bottom: 45px;
-  font-size: 60px;
+  margin-bottom: 260px;
+  font-size: 58px;
   font-weight: 800;
   color: #2a2a2a;
-  line-height: 72px;
+  line-height: 65px;
   background: #FA9D4D;
   background: -webkit-linear-gradient(to right, #FA9D4D 0%, #FF4F6B 100%);
   background: -moz-linear-gradient(to right, #FA9D4D 0%, #FF4F6B 100%);
-  background: linear-gradient(to right, #FA9D4D 0%, #FF4F6B 100%);
+  background: linear-gradient(to right, #4d96fa 0%, #FF4F6B 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  
 }
 
 .main-banner .right-image {
@@ -922,7 +923,7 @@ Banner Style
 }
 
 .main-banner .right-image img {
-  max-width: 593px;
+  max-width: 573px;
 }
 
 
@@ -1646,12 +1647,13 @@ responsive
   }
   .main-banner {
     text-align: center;
+    padding:initial;
   }
   .main-banner:before {
     display: none;
   }
   .main-banner .right-image {
-    margin: 30px auto 0px auto;
+    margin: -425px auto auto;
     text-align: center;
   }
   .features-item {
